@@ -12,9 +12,7 @@ screen.tracer(0)
 turtle.bgcolor('turquoise')
 
 
-
 # Create border
-
 turtle.speed(5) # Speed of the turtle
 turtle.pensize(4) # Border color
 turtle.penup()  # penup() method is used to pull the pen up – no drawing when moving.
@@ -47,7 +45,7 @@ snake.goto(0,0) # Initial position of the snake
 snake.direction = 'stop' 
 
 
-#  Snake food
+# Snake food
 fruit = turtle.Turtle()
 fruit.speed(0)
 fruit.shape('circle')
